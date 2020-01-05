@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "808385918751",
+    "firebase_url": "https://eng-genius-257912.firebaseio.com",
+    "project_id": "eng-genius-257912",
+    "storage_bucket": "eng-genius-257912.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808385918751:android:2ad1c189e05d57e73c622a",
+        "android_client_info": {
+          "package_name": "casanova.com.casanova"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808385918751-t6iksg2ar1mkclii8f4gk7cuggnplp4k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbKVvi2GSaaWo2p_V804WWrYDwx4W-7D0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808385918751-t6iksg2ar1mkclii8f4gk7cuggnplp4k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

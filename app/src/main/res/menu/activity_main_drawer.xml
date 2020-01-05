@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Account" />
+        <item
+            android:id="@+id/offices"
+            android:icon="@drawable/ic_location_on_black_24dp"
+            android:title="My Profile" />
+
+
+        <item
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Friends" />
+
+
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Privacy" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_scanner_black_24dp"
+            android:title="Notification and sounds" />
+
+        <item
+            android:id="@+id/my_location"
+            android:icon="@drawable/ic_location_on_black_24dp"
+            android:title="Position" />
+
+        <item
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="Membershib" />
+
+        <item
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Information" />
+
+
+
+
+
+        <item
+            android:icon="@drawable/ic_all_out_black_24dp"
+            android:title="Legacy" />
+
+        <item
+            android:icon="@drawable/ic_location_on_black_24dp"
+            android:title="Help &amp; Guide" />
+
+
+
+
+
+        <item
+            android:id="@+id/logout"
+            android:visible="false"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="Logout" />
+
+
+
+    </group>
+
+
+
+
+
+</menu>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3"
+    android:orientation="vertical"
+    tools:context=".activity.RegistrationActivity">
+    
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="@dimen/dimen_20"
+        android:orientation="horizontal"
+        android:layout_weight=".1"
+        android:background="@color/color_white"
+        android:layout_marginLeft="@dimen/dimen_20"
+        android:layout_marginTop="@dimen/dimen_20"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/dimen_30"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_navigate_before_black_60dp"
+            android:background="@color/color_white"/>
+        <Button
+            android:id="@+id/backBTN"
+            android:layout_width="40dp"
+            android:gravity="center|left"
+            android:layout_height="match_parent"
+            android:background="@color/color_white"   android:text="@string/back"
+            android:textColor="@color/color_default"
+            android:textSize="@dimen/dimen_10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1.2"
+        android:layout_height="0dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logo"
+            android:layout_weight="0.5"
+            android:layout_height="0dp"
+            />
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1.7"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+       >
+        <TabHost android:id="@+id/tabhost"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TabWidget android:id="@android:id/tabs"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dimen_40" />
+                <FrameLayout android:id="@android:id/tabcontent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <LinearLayout
+                        android:id="@+id/tab1"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <Button
+                            android:id="@+id/button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Next" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/tab2"
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+                        <Button
+                            android:id="@+id/button2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Next" />
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </TabHost>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+</LinearLayout>

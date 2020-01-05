@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Casanova</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="advantage">Take advantage of a 10% discount on surf and paddle surf courses offered by Counil Serf Academy in EI Plamer and Conil de la Frontera(Cadiz).</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="text_hindi" translatable="false">हिंदी</string>
+    <string name="text_english" translatable="false">English</string>
+    <string name="text_spanish" translatable="false">" Español"</string>
+    <string name="select_language">Change Language</string>
+    <string name="how_to_arrive">Arrive at Office</string>
+    <string name="current_language">Current Language</string>
+
+    <string name="one">Quick Contact to the people in front of you</string>
+    <string name="two">Get connected to anyone with one click</string>
+    <string name="three">Switch your personality and enjoy the game</string>
+    <string name="four">See who received more likes and views</string>
+    <string name="back">Back</string>
+</resources>

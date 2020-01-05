@@ -1,0 +1,426 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="The Revolution"
+            android:padding="10dp"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Casavona Flirt"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/one"
+                    android:textColor="@color/color_black"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" />
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Casavona Flirt"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="@string/two"
+                        android:gravity="center"
+                        android:textColor="@color/color_black"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content" />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:src="@mipmap/ic_launcher"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Casavona Flirt"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="@string/three"
+                    android:gravity="center"
+                    android:textColor="@color/color_black"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" />
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Casavona Flirt"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="@string/four"
+                        android:gravity="center"
+                        android:textColor="@color/color_black"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content" />
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:orientation="vertical"
+                   android:background="@color/colorPrimaryDark"
+                   android:layout_height="80dp">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:textColor="#ffffff"
+                       android:padding="5dp"
+                       android:layout_gravity="center"
+                       android:gravity="center"
+                       android:text="Manage Reservations and Enjoy Advanteges"
+                       android:layout_height="wrap_content" />
+
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:textColor="#ffffff"
+                       android:layout_gravity="center"
+                       android:gravity="center"
+                       android:text="only for member"
+                       android:layout_height="wrap_content" />
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:textColor="#ffffff"
+                       android:layout_gravity="center"
+                       android:gravity="center"
+                       android:padding="5dp"
+                       android:text="LOGIN IN"
+                       android:layout_height="wrap_content" />
+
+
+               </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="Book a Car"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/spinner"
+                    android:layout_width="300dp"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:background="@drawable/rounded_edittext1"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="0.2"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:src="@drawable/ic_search_black_24dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="Book a Car"
+                        android:layout_height="wrap_content" />
+
+                    <Spinner
+                        android:id="@+id/select_location"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:hint="Select Class"
+                        android:visibility="gone"
+                        android:textSize="12sp"
+                        android:gravity="center"
+                        android:backgroundTint="@color/colorPrimaryDark"
+                        android:textStyle="bold"
+
+                        android:contentDescription="@string/app_name"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="bold"
+
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="Choose Pickup Location"
+                        android:layout_height="wrap_content" />
+
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="0.3"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:src="@drawable/ic_keyboard_arrow_down_black_24dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="Book a Car"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+<!--
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:layout_height="30dp">
+
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="Select Class"
+                        android:textSize="12sp"
+                        android:gravity="center"
+
+                        android:textStyle="bold"
+
+                        android:contentDescription="@string/app_name"
+                        />
+
+                </RelativeLayout>
+-->
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="bold"
+
+                        android:text="Driver age "
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="bold"
+
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="25 or more"
+                        android:layout_height="wrap_content" />
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+
+
+                    <ImageView
+                        android:id="@+id/image1"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content" />
+
+
+
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+
+
+                    <ImageView
+                        android:id="@+id/image2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
